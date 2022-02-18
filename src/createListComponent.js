@@ -166,7 +166,7 @@ export default function createListComponent({
     _resetIsScrollingTimeoutId: TimeoutID | null = null;
 
     static defaultProps = {
-      direction: 'ltr',
+      direction: 'vertical',
       reversed: false,
       innerTagName: 'div',
       itemData: undefined,
